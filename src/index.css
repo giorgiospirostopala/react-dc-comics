@@ -1,8 +1,17 @@
+* {
+    border: 1px solid red;
+}
+
 .bg-black {
-    background: #000;
-    !important;
+    background: #000 !important;
 }
 
 .primary-pics {
     height: 60px;
+}
+
+.foto {
+    background-image: url("/img/footer-bg.jpg");
+    height: 350px;
+    color: white;
 }
