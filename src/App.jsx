@@ -4,11 +4,11 @@ import Footer from "./components/Footer";
 
 function App() {
   const links = [
-    { text: "Pippo", url: "#" },
-    { text: "Pluto", url: "#" },
-    { text: "Qui", url: "#" },
-    { text: "Quo", url: "#" },
-    { text: "Qua", url: "#" }
+    { id: 1, text: "Pippo", url: "#", current: false },
+    { id: 2, text: "Pluto", url: "#", current: false },
+    { id: 3, text: "Qui", url: "#", current: false },
+    { id: 4, text: "Quo", url: "#", current: false },
+    { id: 5, text: "Qua", url: "#", current: false }
   ];
 
   return (
