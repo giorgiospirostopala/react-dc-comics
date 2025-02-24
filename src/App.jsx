@@ -4,13 +4,12 @@ import Footer from "./components/Footer";
 
 function App() {
   const links = [
-    { text: "Pippo", url: "" },
-    { text: "Pluto", url: "" },
-    { text: "Qui", url: "" },
-    { text: "Quo", url: "" },
-    { text: "Qua", url: "" }
+    { text: "Pippo", url: "#" },
+    { text: "Pluto", url: "#" },
+    { text: "Qui", url: "#" },
+    { text: "Quo", url: "#" },
+    { text: "Qua", url: "#" }
   ];
-
 
   return (
     <>
