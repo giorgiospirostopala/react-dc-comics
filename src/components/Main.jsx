@@ -1,9 +1,23 @@
-const Main = () => {
+import comics from "../data/comics";
+
+const Main = (props) => {
     return (
         <main className="">
             <div className="bg-black">
                 <div className="container py-5">
                     <h3 className="font-weight-bold text-white">CONTENUTO</h3>
+                    <div className="card-container">
+                        {comics.slice(0, 2).map((comic) => (
+                            <div className="card" key={comic.id}>
+                                <img src={comic.thumb} alt={comic.title} />
+                                <div className="card-content">
+                                    <h3 className="card-title">{comic.title}</h3>
+                                    {/* <p className="card-description">{comic.description}</p> */}
+                                    <p className="card-price">{comic.price}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
             <div className="bg-primary p-3">
